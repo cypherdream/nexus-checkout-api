@@ -147,4 +147,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For more information, please contact [obbyprecious24@gmail.com](mailto:obbyprecious24@gmail.com).
+For more information, please contact [brianlexyl03@gmail.com](mailto:brianlexyl03@gmail.com).
