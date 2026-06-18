@@ -90,7 +90,7 @@ async def checkout(
     encoded_msg = urllib.parse.quote(msg)
     whatsapp_link = f"https://wa.me/{my_number}?text={encoded_msg}"
     
-      return {"whatsapp_url": whatsapp_link}
+    return {"whatsapp_url": whatsapp_link}
 
 
 @router.get("/verify-payment/{payment_ref}", response_model=PaymentVerified)
