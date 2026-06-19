@@ -6,11 +6,15 @@ from api.endpoints import router
 
 app = FastAPI()
 
+origins = [
+    "https://nexus-frontend-zeta-swart.vercel.app",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://nexus-frontend-zeta-swart.vercel.app"],
+    allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
 
