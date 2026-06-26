@@ -7,7 +7,7 @@ from api.endpoints import router
 app = FastAPI()
 
 origins = [
-    "https://nexus-frontend-zeta-swart.vercel.app",
+    "*",
 ]
 
 app.add_middleware(
